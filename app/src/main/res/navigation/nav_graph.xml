@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:id="@+id/nav_graph">
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introUidesignFragment">
+    <fragment
+        android:id="@+id/introUidesignFragment"
+        android:name="com.shoykat.androidmaterialdesign.IntroUidesignFragment"
+        android:label="fragment_intro_uidesign"
+        tools:layout="@layout/fragment_intro_uidesign" />
 </navigation>
