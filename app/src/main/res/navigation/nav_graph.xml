@@ -8,10 +8,19 @@
         android:id="@+id/introUidesignFragment"
         android:name="com.shoykat.androidmaterialdesign.IntroUidesignFragment"
         android:label="fragment_intro_uidesign"
-        tools:layout="@layout/fragment_intro_uidesign" />
+        tools:layout="@layout/fragment_intro_uidesign" >
+        <action
+            android:id="@+id/action_introUidesignFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.shoykat.androidmaterialdesign.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.shoykat.androidmaterialdesign.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
 </navigation>
