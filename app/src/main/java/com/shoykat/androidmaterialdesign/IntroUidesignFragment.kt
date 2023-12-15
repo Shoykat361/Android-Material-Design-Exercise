@@ -18,6 +18,7 @@ class IntroUidesignFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding= FragmentIntroUidesignBinding.inflate(inflater,container,false)
+        //git checking
         binding.button.setOnClickListener {
             findNavController().navigate(R.id.action_introUidesignFragment_to_homeFragment)
         }
