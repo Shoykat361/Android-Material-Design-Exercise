@@ -23,4 +23,9 @@
         android:name="com.shoykat.androidmaterialdesign.BlankFragment"
         android:label="fragment_blank"
         tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.shoykat.androidmaterialdesign.DashBoardFragment"
+        android:label="fragment_dash_board"
+        tools:layout="@layout/fragment_dash_board" />
 </navigation>
